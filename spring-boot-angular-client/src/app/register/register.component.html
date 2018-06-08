@@ -1,0 +1,17 @@
+<div class="container">
+  <form class="form-sign">
+    <h1>Spring Boot Angular Example</h1>
+    <h2 class="form-signin-heading">Signing up</h2>
+    <input name="fullName" [(ngModel)]="user.fullName" class="form-control" placeholder="Full Name" required="" autofocus="" type="text">
+
+    <input name="username" [(ngModel)]="user.username" class="form-control" placeholder="Username" required="" autofocus="" type="text">
+
+    <input name="password" [(ngModel)]="user.password" class="form-control" placeholder="Password" required="" type="password">
+    
+    <div *ngIf="errorMsg" class="alert alert-danger" role="alert">
+      <strong>Error!</strong> {{errorMsg}}
+    </div>
+
+    <button class="btn btn-lg btn-success btn-block" (click)="register()">Sign up!</button>
+  </form>
+</div>

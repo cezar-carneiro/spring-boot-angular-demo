@@ -1,0 +1,20 @@
+<header></header>
+<div class="app container">
+  <button class="btn btn-lg btn-outline-primary" (click)="openAddTodoModal()">Create TODO</button>
+  <div *ngIf="errorMsg" class="alert alert-danger" role="alert">
+    <strong>Error!</strong> {{errorMsg}}
+  </div>
+  <div *ngFor="let todo of todos" class="row todo">
+    <div class="col-6">
+      <div class="card bg-light">
+        <div class="card-body">
+          <a><input [(ngModel)]="todo.done" 
+            (change)="onTodoStatusChanged(todo, $event.currentTarget.checked)" 
+            type="checkbox"/> <span> {{todo.description}} 
+              <i class="fa fa-edit" (click)="onEditTodo(todo)"></i>  <i class="fa fa-trash" (click)="onDeleteTodo(todo)"></i></span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+<footer></footer>

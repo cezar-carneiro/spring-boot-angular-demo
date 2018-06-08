@@ -1,0 +1,15 @@
+<div class="container">
+  <form class="form-sign">
+    <h1>Spring Boot Angular Example</h1>
+    <h2 class="form-signin-heading">Please sign in</h2>
+    <input [(ngModel)]="username" name="username" class="form-control" placeholder="Username" required="" autofocus="" type="text">
+    <input [(ngModel)]="password" name="password" class="form-control" placeholder="Password" required="" type="password">
+    
+    <div *ngIf="errorMsg" class="alert alert-danger" role="alert">
+      <strong>Error!</strong> {{errorMsg}}
+    </div>
+
+    <button class="btn btn-lg btn-primary btn-block" type="button" (click)="login()" >Sign in</button>
+    <button class="btn btn-lg btn-success btn-block" type="button" routerLink="/register">Sign up</button>
+  </form>
+</div>

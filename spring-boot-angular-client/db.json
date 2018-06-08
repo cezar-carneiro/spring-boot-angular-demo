@@ -1,0 +1,41 @@
+{
+  "todos": [
+    {
+      "id": 2,
+      "description": "Finish Spring Boot POC",
+      "done": false,
+      "history": [
+        "Updated to DONE on 25/05/2018, 17:08:06",
+        "Updated to NOT DONE on 25/05/2018, 17:08:08"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Buy groceries",
+      "done": false,
+      "history": [
+        "Updated to DONE on 25/05/2018, 16:52:03",
+        "Updated to NOT DONE on 25/05/2018, 16:52:06",
+        "Updated to DONE on 25/05/2018, 17:08:07",
+        "Updated to NOT DONE on 25/05/2018, 17:08:08",
+        "Marked as DONE on 5/28/2018, 3:34:03 PM",
+        "Marked as NOT DONE on 5/28/2018, 3:34:54 PM"
+      ]
+    },
+    {
+      "description": "Hello World",
+      "history": [
+        "Created on 28/05/2018, 15:28:11",
+        "Marked as DONE on 28/05/2018, 15:28:17",
+        "Marked as NOT DONE on 28/05/2018, 15:28:22",
+        "Marked as DONE on 5/28/2018, 3:34:17 PM",
+        "Marked as NOT DONE on 5/28/2018, 3:34:38 PM",
+        "Marked as DONE on 5/28/2018, 3:34:55 PM",
+        "Marked as NOT DONE on 5/28/2018, 3:34:56 PM",
+        "Marked as DONE on 5/28/2018, 3:34:57 PM"
+      ],
+      "id": 5,
+      "done": true
+    }
+  ]
+}
