@@ -15,7 +15,7 @@ const httpOptions = {
 })
 export class TodoService {
 
-  private todosUrl: string = '/api/todos';
+  private todosUrl: string = '/service/api/todos';
 
   constructor(
     private http: HttpClient) { }

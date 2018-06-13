@@ -12,7 +12,7 @@ import { Router } from '@angular/router';
 })
 export class AuthService {
 
-  private authUrl: string = '/api/auth';
+  private authUrl: string = '/service/api/auth';
 
   constructor(private http: HttpClient, private router: Router) { }
 
